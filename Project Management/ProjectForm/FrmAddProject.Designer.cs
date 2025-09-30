@@ -35,7 +35,7 @@
             this.TbDescription = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.BtSubmit = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.DtpStartDate = new Krypton.Toolkit.KryptonDateTimePicker();
@@ -121,22 +121,22 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Planned End Date";
             // 
-            // guna2Button1
+            // BtSubmit
             // 
-            this.guna2Button1.BorderRadius = 15;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(634, 639);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(304, 93);
-            this.guna2Button1.TabIndex = 8;
-            this.guna2Button1.Text = "Submit";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.BtSubmit.BorderRadius = 15;
+            this.BtSubmit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtSubmit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtSubmit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtSubmit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtSubmit.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.BtSubmit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtSubmit.ForeColor = System.Drawing.Color.Black;
+            this.BtSubmit.Location = new System.Drawing.Point(634, 639);
+            this.BtSubmit.Name = "BtSubmit";
+            this.BtSubmit.Size = new System.Drawing.Size(304, 93);
+            this.BtSubmit.TabIndex = 8;
+            this.BtSubmit.Text = "Submit";
+            this.BtSubmit.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2Button3
             // 
@@ -186,7 +186,7 @@
             this.Controls.Add(this.DtpPlannedEndDate);
             this.Controls.Add(this.DtpStartDate);
             this.Controls.Add(this.guna2Button3);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.BtSubmit);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TbDescription);
@@ -209,7 +209,7 @@
         private Guna.UI2.WinForms.Guna2TextBox TbDescription;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button BtSubmit;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private Krypton.Toolkit.KryptonDateTimePicker DtpStartDate;

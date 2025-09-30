@@ -25,8 +25,25 @@ namespace Project_Management
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Form Tet = new FrmProjectDetails(1);
-            Tet.ShowDialog();
+           
+        }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void guna2Button2_Click_2(object sender, EventArgs e)
+        {
+            Form FrmUser = new FrmUsers();
+            FrmUser.ShowDialog();
+
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            Form Frmproject = new FrmProject();
+            Frmproject.ShowDialog();
         }
     }
 }

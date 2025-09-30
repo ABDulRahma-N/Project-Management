@@ -61,46 +61,82 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAddProject.cs">
+    <Compile Include="ProjectForm\FrmAddProject.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAddProject.Designer.cs">
+    <Compile Include="ProjectForm\FrmAddProject.Designer.cs">
       <DependentUpon>FrmAddProject.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmEditProject.cs">
+    <Compile Include="ProjectForm\FrmEditProject.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmEditProject.Designer.cs">
+    <Compile Include="ProjectForm\FrmEditProject.Designer.cs">
       <DependentUpon>FrmEditProject.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmProject.cs">
+    <Compile Include="ProjectForm\FrmProject.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmProject.Designer.cs">
+    <Compile Include="ProjectForm\FrmProject.Designer.cs">
       <DependentUpon>FrmProject.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmProjectDetails.cs">
+    <Compile Include="ProjectForm\FrmProjectDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmProjectDetails.Designer.cs">
+    <Compile Include="ProjectForm\FrmProjectDetails.Designer.cs">
       <DependentUpon>FrmProjectDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersForm\FrmAddAndUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersForm\FrmAddAndUpdateUser.Designer.cs">
+      <DependentUpon>FrmAddAndUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersForm\FrmUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersForm\FrmUpdateUser.Designer.cs">
+      <DependentUpon>FrmUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersForm\FrmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersForm\FrmUsers.Designer.cs">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAddProject.resx">
+    <EmbeddedResource Include="ProjectForm\FrmAddProject.resx">
       <DependentUpon>FrmAddProject.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmEditProject.resx">
+    <EmbeddedResource Include="ProjectForm\FrmEditProject.resx">
       <DependentUpon>FrmEditProject.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmProject.resx">
+    <EmbeddedResource Include="ProjectForm\FrmProject.resx">
       <DependentUpon>FrmProject.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmProjectDetails.resx">
+    <EmbeddedResource Include="ProjectForm\FrmProjectDetails.resx">
       <DependentUpon>FrmProjectDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersForm\FrmAddAndUpdateUser.resx">
+      <DependentUpon>FrmAddAndUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersForm\FrmUpdateUser.resx">
+      <DependentUpon>FrmUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersForm\FrmUsers.resx">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
