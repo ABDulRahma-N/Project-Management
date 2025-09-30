@@ -16,5 +16,17 @@ namespace Project_Management
         {
             InitializeComponent();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+           Form Frmproject = new FrmProject();
+            Frmproject.ShowDialog();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Form Tet = new FrmProjectDetails(1);
+            Tet.ShowDialog();
+        }
     }
 }

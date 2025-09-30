@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProjectManagmentDataLayer
 {
-    public class Class1
+    public class ClsDataSettings
     {
+        public static string ConnectionString = "Server=.;Database=Project_ManagementDB;User Id=sa;Password=123456";
     }
 }
