@@ -38,7 +38,7 @@
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ProjectDataView)).BeginInit();
             this.guna2ContextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -72,7 +72,6 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(202)))), ((int)(((byte)(245)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
             this.ProjectDataView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.ProjectDataView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(201)))), ((int)(((byte)(254)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Comic Sans MS", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -151,39 +150,39 @@
             this.guna2ContextMenuStrip1.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
             this.guna2ContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
             this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(301, 162);
+            this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(161, 118);
             this.guna2ContextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.guna2ContextMenuStrip1_Opening);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(300, 38);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(160, 38);
             this.editToolStripMenuItem.Text = "Edit";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(300, 38);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(160, 38);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // deToolStripMenuItem
             // 
             this.deToolStripMenuItem.Name = "deToolStripMenuItem";
-            this.deToolStripMenuItem.Size = new System.Drawing.Size(300, 38);
+            this.deToolStripMenuItem.Size = new System.Drawing.Size(160, 38);
             this.deToolStripMenuItem.Text = "Details";
             this.deToolStripMenuItem.Click += new System.EventHandler(this.deToolStripMenuItem_Click);
             // 
-            // label1
+            // label2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(93, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(195, 60);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Projects";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(74, 57);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(169, 51);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Projects";
             // 
             // FrmProject
             // 
@@ -192,7 +191,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1940, 726);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.ProjectDataView);
             this.Controls.Add(this.guna2TileButton2);
             this.Name = "FrmProject";
@@ -212,6 +211,6 @@
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deToolStripMenuItem;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -85,6 +85,24 @@
     <Compile Include="ProjectForm\FrmProjectDetails.Designer.cs">
       <DependentUpon>FrmProjectDetails.cs</DependentUpon>
     </Compile>
+    <Compile Include="TasksForm\FrmAddAndEditTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TasksForm\FrmAddAndEditTask.Designer.cs">
+      <DependentUpon>FrmAddAndEditTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TasksForm\FrmEditTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TasksForm\FrmEditTask.Designer.cs">
+      <DependentUpon>FrmEditTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TasksForm\FrmTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TasksForm\FrmTasks.Designer.cs">
+      <DependentUpon>FrmTasks.cs</DependentUpon>
+    </Compile>
     <Compile Include="test.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -125,6 +143,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectForm\FrmProjectDetails.resx">
       <DependentUpon>FrmProjectDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TasksForm\FrmAddAndEditTask.resx">
+      <DependentUpon>FrmAddAndEditTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TasksForm\FrmEditTask.resx">
+      <DependentUpon>FrmEditTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TasksForm\FrmTasks.resx">
+      <DependentUpon>FrmTasks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="test.resx">
       <DependentUpon>test.cs</DependentUpon>

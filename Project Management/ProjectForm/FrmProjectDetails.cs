@@ -35,12 +35,13 @@ namespace Project_Management
                 if (_ProjectDetails.ActualEndDate!=DateTime.MinValue)
                 {
                     LActualEndDate.Visible = true;
-                    LActualEndDate.Text = LActualEndDate.Text + (_ProjectDetails.ActualEndDate.Value.ToShortDateString());
+                    LActualEndDate.Text = "Actual End Date : "+(_ProjectDetails.ActualEndDate.Value.ToShortDateString());
                 }
                 else
                 {
                     LActualEndDate.Visible = false;
                 }
+                DgvProjectDetails.DataSource = ClsTasks.GetAllTaskByProjectId(this._ProjectID);
 
             }
             else

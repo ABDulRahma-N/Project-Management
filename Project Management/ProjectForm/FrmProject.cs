@@ -30,10 +30,6 @@ namespace Project_Management
         {
             DataView Dv = ClsProject.GetAllProject().DefaultView;
 
-            
-            
-           
-
             ProjectDataView.DataSource = Dv;
             ProjectDataView.Columns["Description"].Visible = false;
 
